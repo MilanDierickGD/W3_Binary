@@ -150,8 +150,8 @@ void ThirdExample()
 		std::cout << "Successfully read data from a binary file...\n";
 	}
 
-	std::cout << "Original TeleportLocation : [" << toWrite.Name << ", " << toWrite.X << ", " << toWrite.Y << ", " << toWrite.Z << "]\n";
-	std::cout << "Read TeleportLocation : [" << toRead.Name << ", " << toRead.X << ", " << toRead.Y << ", " << toRead.Z << "]\n";
+	std::cout << "Original NPC : [" << toWrite.Name << ", " << toWrite.X << ", " << toWrite.Y << ", " << toWrite.Z << "]\n";
+	std::cout << "Read NPC : [" << toRead.Name << ", " << toRead.X << ", " << toRead.Y << ", " << toRead.Z << "]\n";
 }
 
 int main(int argc, char* argv[])
