@@ -1,0 +1,7 @@
+﻿Example 2:
+1. What is sizeof(bool) and what is sizeof(float)?
+    A bool is 1 byte and a float is 4 bytes.
+2. How many bytes do you expect your file to contain?
+    13 bytes.
+3. How many does it contain? Why?
+    16 bytes. It seems that the minimum size of a piece of data being written to a binary file is 4 bytes.
